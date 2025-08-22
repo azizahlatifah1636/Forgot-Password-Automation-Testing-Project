@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run TestNG Tests",
+      "type": "shell",
+      "command": "mvn test",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Cucumber Tests",
+      "type": "shell",
+      "command": "mvn test -Dcucumber.options=src/test/resources/theinternet.feature",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate Allure Report",
+      "type": "shell",
+      "command": "mvn allure:report",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Allure Report",
+      "type": "shell",
+      "command": "mvn allure:serve",
+      "group": "build",
+      "problemMatcher": [],
+      "isBackground": true
+    },
+    {
+      "label": "Run Tests and Generate Allure Report",
+      "type": "shell",
+      "command": "mvn clean test allure:report",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

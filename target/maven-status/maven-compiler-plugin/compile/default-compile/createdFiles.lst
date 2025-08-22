@@ -1,0 +1,3 @@
+pages\ForgotPasswordPage.class
+pages\LoginPage.class
+utils\ConfigReader.class

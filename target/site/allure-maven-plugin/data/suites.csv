@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 22 09:26:21 ICT 2025","Fri Aug 22 09:27:10 ICT 2025","49347","","Forgot Password Flow on The Internet","","Complete forgot password flow and login","","Complete forgot password flow and login",""
+"passed","Fri Aug 22 09:27:16 ICT 2025","Fri Aug 22 09:27:33 ICT 2025","17125","Surefire suite","Surefire test","tests.ElementExplorerTest","tests.ElementExplorerTest","exploreForgotPasswordPage","exploreForgotPasswordPage",""
+"passed","Fri Aug 22 09:27:50 ICT 2025","Fri Aug 22 09:28:11 ICT 2025","20707","Surefire suite","Surefire test","tests.LoginTest","tests.LoginTest","testForgotPasswordFlow","testForgotPasswordFlow","Test the complete forgot password flow including email submission and login"

@@ -1,0 +1,4 @@
+tests\ElementExplorerTest.class
+stepdefs\SaucedemoSteps.class
+tests\LoginTest.class
+runner\TestRunner.class
